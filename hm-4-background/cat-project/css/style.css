@@ -1,0 +1,91 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+
+
+  border-spacing: 0;
+}
+/* !!!!!!!!MULTI BACKGROUND!!!!!!!! */
+.multi-bg{
+  height: 100vh; 
+  margin: 0;
+  background-color: #f5fcff;
+  background-image: url("../img/cloud.png"), url("../img/sun.png"), url("../img/grass.png"), url("../img/cat.png");
+  background-size: auto 200px, auto, auto 150px, auto 500px;
+  background-repeat: repeat-x, no-repeat, repeat-x, no-repeat;
+  background-position: top 50px left 0px, top  right, bottom, center bottom;
+}
+/* !!!!!!!!!!!with images!!!!!!!! */
+/* body{
+  background-color:  #f5fcff;
+}
+.main-container{
+  height: 100vh; 
+  margin: 0;
+  background: url(../img/cloud.png) top 50px left/auto 200px repeat-x,
+  url(../img/grass.png) bottom right/auto 150px repeat-x;
+}
+
+.cat-image{
+ max-height: 500px;
+ position: absolute;
+ bottom: 0;
+ left: 50%;
+ transform: translateX(-50%);
+ z-index: -1;
+}
+
+.sun-image{
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+} */

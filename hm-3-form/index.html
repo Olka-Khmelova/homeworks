@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="#" method="#">
+            <legend class="main-legent">Please fill out the form below </legend>
+            <div class="container-form">
+                <label for="get-name" class="input-label">Full name</label>
+                <input id="get-name" type="text" class="input-form">
+            </div>
+            <div class="container-form">
+                <label for="get-email" class="input-label">Your e-mail address</label>
+                <input id="get-email" type="text" class="input-form">
+            </div>
+            <div class="phone-form container-form">
+                <label for="phone-number" class="input-label">Your phone number</label>
+                <input id="phone-number" type="tel" class="input-form">
+            </div>
+        <div class="select-country-form">
+            <label for="country" class="input-label">Select your country</label>
+            <div >
+                <select  id="country" class="input-form country-select">
+                    <option value="UA" >UK</option>
+                    <option value="UA Ukraine" >UA Ukraine</option>
+                    <option value="US United States">US United States</option>
+                    <option value="UK United Kingdom">UK United Kingdom</option>
+                    <option value="IT Italy">IT Italy</option>
+                </select>
+        </div>
+        </div>
+        <div class="event-form">
+            <p class="event-heading">I want to attend event</p>
+                <div>
+                <input class="styled-radio" id="styled-radio-1" type="radio" value="value1" name="event">
+                <label class= "label-text" for="styled-radio-1">online</label>
+                </div>
+                <div>
+                <input class="styled-radio" id="styled-radio-2" type="radio" value="value2" name="event">
+                <label class= "label-text" for="styled-radio-2">offline</label>
+                </div>
+            </div>
+        <div class="coments-form">
+            <label for="comments" class="input-label">Сomments</label>
+            <textarea id="comments" class="input-form comments-input"></textarea>
+        </div>
+        
+        <div class="policy-form">
+            <input class="styled-checkbox" id="styled-checkbox-1" type="checkbox" value="value1">
+            <label class= "label-text" for="styled-checkbox-1">I agree with <a href="#" class="policy-link">the privacy policy</a></label>
+        </div>
+        <div class="butons-container">
+            <input type="reset" value="Clear form" class="clear-btn btn">
+            <input type="submit" value="Submit form" class="submit-btn btn"> 
+        </div> 
+        </form>
+    </div>
+</body>
+</html>
